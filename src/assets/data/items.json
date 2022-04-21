@@ -1,0 +1,40 @@
+{
+    "items": [
+      {
+        "id": "1",
+        "name": "food-1",
+        "price": 10,
+        "images": "/assets/images/photo-1"
+         },
+      {
+        "id": "2",
+        "name": "food-2",
+        "price": 20,
+        "images": "/assets/images/photo-2"
+     },
+      {
+        "id": "3",
+        "name": "food-3",
+        "price": 30,
+        "images": "/assets/images/photo-3"
+      },
+      {
+        "id": "4",
+        "name": "food-4",
+        "price": 40,
+        "images": "/assets/images/photo-4"
+      },
+      {
+        "id": "5",
+        "name": "food-5",
+        "price": 50,
+        "images": "/assets/images/photo-5"
+      },
+      {
+        "id": "6",
+        "name": "food-6",
+        "price": 60,
+        "images": "/assets/images/photo-6"
+      }
+    ]
+  }

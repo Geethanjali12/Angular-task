@@ -1,0 +1,24 @@
+<app-navbar [items]="itemsDetails"></app-navbar>
+<div class="container">
+  <div class="product-list" *ngFor="let data of itemsDetails; let i = index;">
+    <div class="card mb-4 shadow-sm pd-5">
+      <div class="product-list__image">
+        <img class="card-img-top" src="../../../assets/images/photo-1.jpg" alt="Card image cap">
+      </div>
+      <div class="card-body">
+        <h4>Item: {{data.name}}</h4>
+        <p class="card-text">Price: {{data.price}}</p>
+      </div>
+      <div>
+        <button class="addToCart" (click)="addCart($event, data.id)">Add to Cart</button>
+      </div>
+      <div>
+        <h4>Quantity </h4>
+        <input type="number">
+        <div class="icon" [ngStyle]="{'color':data.select ?  '#d63872' : '#000'}" (click)="addEvent(data)">
+          <i class='far fa-heart' style='font-size:24px'></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
